@@ -1,0 +1,24 @@
+{
+  "name": "webpack-war-archiver-plugin",
+  "version": "0.0.1",
+  "author": "Sven Walter",
+  "description": "Package and compresses all file to a common war file.",
+  "dependencies": {
+    "easy-zip": "0.0.4"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/SvenWalter/webpack-war-archiver-plugin.git",
+  "peerDependencies": {
+    "webpack": ">=0.11 <2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SvenWalter/webpack-war-archiver-plugin.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ]
+}
