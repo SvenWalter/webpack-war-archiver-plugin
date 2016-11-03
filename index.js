@@ -4,12 +4,13 @@ var path = require('path');
 function WarArchiverPlugin(options) {
     this.options = options || {};
     this.fileName = options.fileName || 'project.zip';
-    this.rootFolder = options.dir || 'project';
+    this.rootFolder = options.rootFolder || 'project';
 }
 
 WarArchiverPlugin.prototype.apply = function(compiler) {
     var self = this;
     var options = compiler.options;
+    options.output.path = this.rootFolder;
     compiler.plugin('done', function() {
         var zip = new EasyZip();
         zip.zipFolder(options.output.path, function() {
