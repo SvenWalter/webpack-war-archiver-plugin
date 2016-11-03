@@ -1,5 +1,8 @@
 # webpack-war-archiver-plugin
 
+## NOT SUPPORTED ANY MORE ... IT WAS JUST A POC! 
+
+
 ## Usage
 
 ``` javascript
